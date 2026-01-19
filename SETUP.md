@@ -25,7 +25,7 @@ Your AiCoach project now includes three fully configured applications:
 
 ### 3. 🔧 Backend API (`/backend`)
 - **Framework**: Node.js + Express
-- **Port**: http://localhost:5000
+- **Port**: http://localhost:5001
 - **Features**:
   - RESTful API structure
   - CORS enabled
@@ -169,7 +169,7 @@ ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8081
 
 ### Admin (.env)
 ```env
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=http://localhost:5001
 ```
 
 ## 📝 API Endpoints (Current)

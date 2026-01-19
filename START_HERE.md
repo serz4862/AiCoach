@@ -43,7 +43,7 @@ npm start
 You now have:
 - 📱 Mobile app running on your phone/simulator
 - 💻 Admin dashboard at http://localhost:5173
-- 🔧 Backend API at http://localhost:5000
+- 🔧 Backend API at http://localhost:5001
 
 All three are connected and working together!
 

@@ -97,7 +97,7 @@ Backend: cd backend && npm run dev
 
 🌐 DEFAULT PORTS
 ---
-Backend:  http://localhost:5000
+Backend:  http://localhost:5001
 Admin:    http://localhost:5173
 Mobile:   Expo Dev Tools (port 19000)
 

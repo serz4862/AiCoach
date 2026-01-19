@@ -54,7 +54,7 @@ npm install
 # Configure .env file
 npm run dev
 ```
-Backend will run on `http://localhost:5000`
+Backend will run on `http://localhost:5001`
 
 3. **Admin Dashboard Setup**
 ```bash
@@ -124,7 +124,7 @@ npm start
 
 ### Backend (.env)
 ```env
-PORT=5000
+PORT=5001
 NODE_ENV=development
 MONGODB_URI=mongodb://localhost:27017/aicoach
 JWT_SECRET=your_jwt_secret_key_here
@@ -134,7 +134,7 @@ ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8081
 
 ### Admin (.env)
 ```env
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=http://localhost:5001
 ```
 
 ### Mobile (src/config/api.js)
@@ -207,7 +207,7 @@ ISC
 - For physical devices, use your computer's IP address instead of localhost
 
 ### Admin dashboard shows API error
-- Verify backend is running on http://localhost:5000
+- Verify backend is running on http://localhost:5001
 - Check CORS settings in backend
 - Verify .env configuration
 

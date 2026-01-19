@@ -45,7 +45,7 @@ mobile/
 ## Configuration
 
 The API base URL is configured in `src/config/api.js`:
-- Development: `http://localhost:5000`
+- Development: `http://localhost:5001`
 - Production: Update with your production API URL
 
 ## Features
@@ -57,4 +57,4 @@ The API base URL is configured in `src/config/api.js`:
 
 ## Development
 
-Make sure the backend server is running on `http://localhost:5000` before testing API features.
+Make sure the backend server is running on `http://localhost:5001` before testing API features.

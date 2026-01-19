@@ -80,15 +80,15 @@ npm run dev
 **Expected Output:**
 ```
 🚀 Server is running on port 5000
-📍 API URL: http://localhost:5000
+📍 API URL: http://localhost:5001
 ```
 
 **Test it:**
-- Open browser: http://localhost:5000
+- Open browser: http://localhost:5001
 - Should see JSON: `{"message": "Welcome to AiCoach API", ...}`
 
 **Health Check:**
-- Open: http://localhost:5000/health
+- Open: http://localhost:5001/health
 - Should see: `{"status": "healthy", "timestamp": "..."}`
 
 ✅ Backend working if you see these responses

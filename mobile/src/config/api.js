@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Configure your backend API URL here
 const API_BASE_URL = __DEV__ 
-  ? 'http://localhost:5000'  // Development
+  ? 'http://localhost:5001'  // Development
   : 'https://your-production-api.com';  // Production
 
 const apiClient = axios.create({

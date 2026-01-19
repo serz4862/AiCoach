@@ -58,7 +58,7 @@ mobile/
 - Modern, responsive UI design
 
 **Communication**:
-- REST API calls to backend at `http://localhost:5000`
+- REST API calls to backend at `http://localhost:5001`
 - JSON data format
 - Token-based authentication (ready to implement)
 
@@ -294,7 +294,7 @@ DELETE /api/users/:id          # Delete user
 
 | Service | Port | URL |
 |---------|------|-----|
-| Backend API | 5000 | http://localhost:5000 |
+| Backend API | 5000 | http://localhost:5001 |
 | Admin Dashboard | 5173 | http://localhost:5173 |
 | Mobile App | 19000 | Expo Dev Tools |
 | MongoDB | 27017 | mongodb://localhost:27017 |

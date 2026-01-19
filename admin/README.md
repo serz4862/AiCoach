@@ -63,8 +63,8 @@ admin/
 ## Development
 
 The admin dashboard runs on `http://localhost:5173` by default.
-Make sure the backend server is running on `http://localhost:5000` for API features to work.
+Make sure the backend server is running on `http://localhost:5001` for API features to work.
 
 ## Environment Variables
 
-- `VITE_API_URL` - Backend API URL (default: http://localhost:5000)
+- `VITE_API_URL` - Backend API URL (default: http://localhost:5001)
