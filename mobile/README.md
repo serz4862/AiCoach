@@ -1,60 +1,50 @@
-# AiCoach Mobile App
+# Welcome to your Expo app 👋
 
-React Native mobile application for AiCoach, built with Expo.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Tech Stack
+## Get started
 
-- React Native
-- Expo SDK 54
-- Axios for API calls
-- React Native Safe Area Context
+1. Install dependencies
 
-## Setup
+   ```bash
+   npm install
+   ```
 
-1. Install dependencies:
+2. Start the app
+
+   ```bash
+   npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
 ```bash
-npm install
+npm run reset-project
 ```
 
-2. Start the development server:
-```bash
-npm start
-```
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-3. Run on specific platform:
-```bash
-npm run android  # For Android
-npm run ios      # For iOS
-npm run web      # For Web
-```
+## Learn more
 
-## Project Structure
+To learn more about developing your project with Expo, look at the following resources:
 
-```
-mobile/
-├── src/
-│   ├── config/      # Configuration files
-│   ├── screens/     # Screen components
-│   ├── components/  # Reusable components
-│   └── services/    # API services
-├── App.js           # Entry point
-├── app.json         # Expo configuration
-└── package.json     # Dependencies
-```
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Configuration
+## Join the community
 
-The API base URL is configured in `src/config/api.js`:
-- Development: `http://localhost:5001`
-- Production: Update with your production API URL
+Join our community of developers creating universal apps.
 
-## Features
-
-- ✅ API integration with backend
-- ✅ Health check functionality
-- ✅ Modern UI design
-- ✅ Safe area handling for iOS/Android
-
-## Development
-
-Make sure the backend server is running on `http://localhost:5001` before testing API features.
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
